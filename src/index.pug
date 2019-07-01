@@ -1,3 +1,5 @@
+include ./pug/slider
+
 doctype html
 html(lang="ru")
   head
@@ -5,6 +7,10 @@ html(lang="ru")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     title Тестовое задание
     link(rel="stylesheet" type="text/css" href="style.css")
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css')
   body
-    h1 Gulp boilerplate
-  script(type="text/javascript" src="index.js")
+    main.main
+      h1.visually-hidden Affinage
+      +slider('main__slider')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js')
+  script(src="index.js")
