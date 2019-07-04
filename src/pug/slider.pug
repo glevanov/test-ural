@@ -1,7 +1,12 @@
 mixin slider(className)
-  section(class=className).swiper-container
-    .swiper-wrapper
-      .swiper-slide Slide 1
-      .swiper-slide Slide 2
-    .swiper-button-prev
-    .swiper-button-next
+  section.slider(class=className)
+    .slider__slide-wrapper
+      picture
+        source(srcset="img/ural-mobile@1x.webp" type="image/webp")
+        img.slider__slide.slider__slide--first.reset-picture(src="img/ural-mobile@1x.jpg" alt="Ural")
+      picture
+        source(srcset="img/arc-mobile@1x.webp" type="image/webp")
+        img.slider__slide.slider__slide--second.reset-picture(src="img/arc-mobile@1x.jpg" alt="Arc")
+    .slider__button-wrapper
+      button.slider__button(aria-label="Переключить слайд назад")
+      button.slider__button(aria-label="Переключить слайд вперёд")

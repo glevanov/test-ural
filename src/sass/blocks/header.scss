@@ -1,0 +1,23 @@
+.header {
+  z-index: 500;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px 42px;
+}
+
+.header__logo {
+  width: 23px;
+  height: 25px;
+}
+
+.header__burger {
+  width: 20px;
+  height: 14px;
+  margin: 5px 0 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}

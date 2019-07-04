@@ -2,8 +2,9 @@
 @import "scaffolding/fonts";
 @import "scaffolding/variables";
 @import "blocks/visually-hidden";
-
-.swiper-container {
-  width: 600px;
-  height: 300px;
-}
+@import "blocks/reset-picture";
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/slider";
+@import "blocks/footer";

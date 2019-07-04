@@ -1,4 +1,6 @@
-include ./pug/slider
+include ./pug/header
+include ./pug/main
+include ./pug/footer
 
 doctype html
 html(lang="ru")
@@ -7,10 +9,8 @@ html(lang="ru")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     title Тестовое задание
     link(rel="stylesheet" type="text/css" href="style.css")
-    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css')
-  body
-    main.main
-      h1.visually-hidden Affinage
-      +slider('main__slider')
-  script(src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js')
+  body.page
+    +header("page__header")
+    +main("page__main")
+    +footer("page__footer")
   script(src="index.js")
