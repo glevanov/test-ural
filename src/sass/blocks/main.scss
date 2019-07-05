@@ -4,15 +4,15 @@
 }
 
 .main__slogan {
+  display: block;
   font-family: $font-stack-accent;
   font-size: 9px;
+  left: -20px;
   line-height: normal;
-  display: block;
   margin: 0;
-  z-index: 700;
+  opacity: 0.5;
   position: absolute;
   top: 158px;
-  left: -20px;
-  opacity: 0.5;
   transform: rotate(-90deg);
+  z-index: 700;
 }
