@@ -9,15 +9,15 @@
 }
 
 .header__logo {
-  width: 23px;
   height: 25px;
+  width: 23px;
 }
 
 .header__burger {
-  width: 20px;
+  background-color: transparent;
+  border: 0;
   height: 14px;
   margin: 5px 0 0;
   padding: 0;
-  border: 0;
-  background-color: transparent;
+  width: 20px;
 }

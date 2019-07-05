@@ -1,16 +1,16 @@
 .footer {
-  width: 100%;
   height: 54px;
-  position: relative;
-  z-index: 500;
-  overflow-y: hidden;
   margin-top: -54px;
+  overflow-y: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 500;
 }
 
 .footer__logo {
   display: block;
-  width: 110px;
   height: 110px;
   margin-left: auto;
   margin-right: auto;
+  width: 110px;
 }
