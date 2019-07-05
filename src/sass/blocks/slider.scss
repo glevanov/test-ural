@@ -1,5 +1,6 @@
 .slider {
   position: relative;
+  z-index: 500;
 }
 
 .slider__slide-wrapper {
@@ -29,9 +30,9 @@
   bottom: 137px;
   display: flex;
   justify-content: space-between;
-  left: calc(50% - 280px / 2);
+  left: calc(50% - (100% - 40px) / 2);
   position: absolute;
-  width: 280px;
+  width: calc(100% - 40px);
   z-index: 700;
 }
 
