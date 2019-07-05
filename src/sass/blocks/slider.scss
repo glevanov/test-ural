@@ -26,6 +26,36 @@
   }
 }
 
+.slider__decor-black-alfa {
+  right: 27px;
+  top: 144px;
+  z-index: 400;
+}
+
+.slider__decor-transparent-alfa {
+  bottom: 27px;
+  left: 44px;
+  z-index: 600;
+}
+
+.slider__decor-A {
+  top: 143px;
+  left: 67px;
+  z-index: 600;
+};
+
+.slider__decor-G {
+  top: 126px;
+  left: 148px;
+  z-index: 400;
+};
+
+.slider__decor-E {
+  top: 50px;
+  right: 62px;
+  z-index: 400;
+};
+
 .slider__button-wrapper {
   bottom: 137px;
   display: flex;
@@ -51,4 +81,30 @@
   &:first-of-type {
     transform: rotate(180deg);
   }
+}
+
+.slider__plaque {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='105' height='105'%3E%3Cpath fill='%23f7e611' d='M0 105h105V0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 105px;
+  width: 105px;
+  position: absolute;
+  z-index: 700;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.slider__plaque-text {
+  margin: 0;
+  font-family: $font-stack-decor;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+  line-height: normal;
 }

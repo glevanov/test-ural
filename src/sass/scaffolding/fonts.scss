@@ -3,8 +3,30 @@
   font-family: "Philosopher";
   font-style: italic;
   font-weight: 400;
-  src: local("Philosopher"),
+  src: local("Philosopher Italic"),
   local("Philosopher-Italic"),
   url("./fonts/Philosopher-Italic.woff2") format("woff2"),
   url("./fonts/Philosopher-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Geometria";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Geometria Medium"),
+  local("Geometria-Medium"),
+  url("./fonts/Geometria-Medium.woff2") format("woff2"),
+  url("./fonts/Geometria-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Geometria";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Geometria Heavy Italic"),
+  local("Geometria-HeavyItalic"),
+  url("./fonts/Geometria-HeavyItalic.woff2") format("woff2"),
+  url("./fonts/Geometria-HeavyItalic.woff") format("woff");
 }
