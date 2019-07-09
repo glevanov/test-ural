@@ -25,14 +25,14 @@
     width: 160px;
 
     &::after {
-      display: block;
-      content: "";
-      width: 213px;
-      height: 10px;
       background-color: $color-pseudo;
+      content: "";
+      display: block;
+      height: 10px;
+      left: calc(50% - 213px / 2);
       position: absolute;
       top: 112px;
-      left: calc(50% - 213px / 2);
+      width: 213px;
     }
   }
 }
