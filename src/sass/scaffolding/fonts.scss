@@ -30,3 +30,14 @@
   url("./fonts/Geometria-HeavyItalic.woff2") format("woff2"),
   url("./fonts/Geometria-HeavyItalic.woff") format("woff");
 }
+
+@font-face {
+  font-display: swap;
+  font-family: "Geometria";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Geometria Light Italic"),
+  local("Geometria-LightItalic"),
+  url("./fonts/Geometria-LightItalic.woff2") format("woff2"),
+  url("./fonts/Geometria-LightItalic.woff") format("woff");
+}

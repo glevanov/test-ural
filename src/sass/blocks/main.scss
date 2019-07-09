@@ -15,4 +15,12 @@
   top: 158px;
   transform: rotate(-90deg);
   z-index: 700;
+
+  @media (min-width: $width-desktop) {
+    font-family: $font-stack-decor;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 0.444px;
+  }
 }
