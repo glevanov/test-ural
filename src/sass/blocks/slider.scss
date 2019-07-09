@@ -24,6 +24,10 @@
     top: 0;
     z-index: 200;
   }
+
+  @media (min-width: $width-desktop) {
+    box-shadow: 0 0 103px 0 rgba(0, 0, 0, 0.1);
+  }
 }
 
 .slider__decor-black-alfa {

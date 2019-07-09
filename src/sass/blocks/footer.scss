@@ -5,6 +5,11 @@
   position: relative;
   width: 100%;
   z-index: 500;
+
+  @media (min-width: $width-desktop) {
+    height: 122px;
+    margin-top: -112px;
+  }
 }
 
 .footer__logo {
@@ -13,4 +18,21 @@
   margin-left: auto;
   margin-right: auto;
   width: 110px;
+
+  @media (min-width: $width-desktop) {
+    height: 160px;
+    position: relative;
+    width: 160px;
+
+    &::after {
+      display: block;
+      content: "";
+      width: 213px;
+      height: 10px;
+      background-color: $color-pseudo;
+      position: absolute;
+      top: 112px;
+      left: calc(50% - 213px / 2);
+    }
+  }
 }
