@@ -90,8 +90,8 @@
   z-index: 400;
 
   @media (min-width: $width-desktop) {
-    top: 27px;
     right: 154px;
+    top: 27px;
   }
 }
 
@@ -103,6 +103,12 @@
   position: absolute;
   width: 280px;
   z-index: 700;
+
+  @media (min-width: $width-desktop) {
+    bottom: 154px;
+    left: calc(50% + 265px);
+    width: 215px;
+  }
 }
 
 .slider__button {
@@ -137,13 +143,62 @@
   right: calc(50% - 320px / 2);
   width: 105px;
   z-index: 700;
+
+  @media (min-width: $width-desktop) {
+    background: none;
+    background-color: $color-primary;
+    width: 138px;
+    height: 383px;
+    right: calc(50% - 442px);
+    bottom: 35px;
+    box-sizing: border-box;
+    padding: 0;
+  }
 }
 
-.slider__plaque-text {
+.slider__plaque-thirteen {
   font-family: $font-stack-decor;
   font-size: 20px;
   font-style: italic;
   font-weight: 700;
+  letter-spacing: 2px;
   line-height: normal;
   margin: 0;
+
+  @media (min-width: $width-desktop) {
+    letter-spacing: 4.5px;
+    font-size: 45px;
+    position: absolute;
+    bottom: 27px;
+    left: 23px;
+
+    &::after {
+      content: "";
+      position: relative;
+      right: 0;
+      bottom: 0;
+      background-color: $color-text-main;
+      width: 17px;
+      height: 3px;
+      display: inline-block;
+    }
+  }
+}
+
+.slider__plaque-seven {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    bottom: 18px;
+    display: block;
+    font-family: $font-stack-decor;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    left: 75px;
+    line-height: normal;
+    margin: 0;
+    position: absolute;
+  }
 }
