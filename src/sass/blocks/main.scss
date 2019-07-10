@@ -17,6 +17,22 @@
   z-index: 700;
 
   @media (min-width: $width-desktop) {
+    left: -20px;
+    top: 170px;
+  }
+}
+
+.main__test-text {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: block;
+    position: absolute;
+    opacity: 0.4;
+    top: 160px;
+    left: -15px;
+    transform: rotate(-90deg);
+    z-index: 700;
     font-family: $font-stack-decor;
     font-size: 12px;
     font-style: italic;
