@@ -8,4 +8,8 @@
   font-weight: 500;
   line-height: normal;
   margin: 0;
+
+  @media (min-width: $width-desktop) {
+    font-size: 80px;
+  }
 }

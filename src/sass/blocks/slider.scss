@@ -14,9 +14,9 @@
 
   @media (min-width: $width-desktop) {
     height: 577px;
-    width: 1280px;
     margin-left: auto;
     margin-right: auto;
+    width: 1280px;
   }
 }
 
@@ -26,14 +26,22 @@
 
   &--first {
     bottom: 0;
-    right: 0;
+    right: calc(50% - 160px);
     z-index: 500;
+
+    @media (min-width: $width-desktop) {
+      right: 0;
+    }
   }
 
   &--second {
-    left: 0;
+    left: calc(50% - 160px);
     top: 0;
     z-index: 200;
+
+    @media (min-width: $width-desktop) {
+      left: 0;
+    }
   }
 
   @media (min-width: $width-desktop) {
@@ -54,30 +62,46 @@
 }
 
 .slider__decor-A {
-  left: 67px;
+  right: calc(50% + 46px);
   top: 143px;
   z-index: 600;
+
+  @media (min-width: $width-desktop) {
+    right: 321px;
+    top: -53px;
+  }
 }
 
 .slider__decor-G {
-  left: 148px;
+  right: calc(50% - 34px);
   top: 126px;
   z-index: 400;
+
+  @media (min-width: $width-desktop) {
+    right: 233px;
+    top: 104px;
+    z-index: 600;
+  }
 }
 
 .slider__decor-E {
-  right: 62px;
+  right: calc(50% - 96px);
   top: 50px;
   z-index: 400;
+
+  @media (min-width: $width-desktop) {
+    top: 27px;
+    right: 154px;
+  }
 }
 
 .slider__button-wrapper {
   bottom: 137px;
   display: flex;
   justify-content: space-between;
-  left: calc(50% - (100% - 40px) / 2);
+  left: calc(50% - 280px / 2);
   position: absolute;
-  width: calc(100% - 40px);
+  width: 280px;
   z-index: 700;
 }
 
@@ -110,7 +134,7 @@
   padding-bottom: 20px;
   padding-right: 20px;
   position: absolute;
-  right: 0;
+  right: calc(50% - 320px / 2);
   width: 105px;
   z-index: 700;
 }
