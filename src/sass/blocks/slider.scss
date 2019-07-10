@@ -53,12 +53,24 @@
   right: 27px;
   top: 144px;
   z-index: 400;
+
+  @media (min-width: $width-desktop) {
+    bottom: -85px;
+    right: 136px;
+    top: unset;
+  }
 }
 
 .slider__decor-transparent-alfa {
   bottom: 27px;
   left: 44px;
   z-index: 600;
+
+  @media (min-width: $width-desktop) {
+    bottom: -105px;
+    left: unset;
+    right: 370px;
+  }
 }
 
 .slider__decor-A {
@@ -147,12 +159,12 @@
   @media (min-width: $width-desktop) {
     background: none;
     background-color: $color-primary;
-    width: 138px;
-    height: 383px;
-    right: calc(50% - 442px);
     bottom: 35px;
     box-sizing: border-box;
+    height: 383px;
     padding: 0;
+    right: calc(50% - 442px);
+    width: 138px;
   }
 }
 
@@ -166,21 +178,21 @@
   margin: 0;
 
   @media (min-width: $width-desktop) {
-    letter-spacing: 4.5px;
-    font-size: 45px;
-    position: absolute;
     bottom: 27px;
+    font-size: 45px;
     left: 23px;
+    letter-spacing: 4.5px;
+    position: absolute;
 
     &::after {
+      background-color: $color-text-main;
+      bottom: 0;
       content: "";
+      display: inline-block;
+      height: 3px;
       position: relative;
       right: 0;
-      bottom: 0;
-      background-color: $color-text-main;
       width: 17px;
-      height: 3px;
-      display: inline-block;
     }
   }
 }
@@ -195,8 +207,8 @@
     font-size: 17px;
     font-style: italic;
     font-weight: 700;
-    letter-spacing: 1.7px;
     left: 75px;
+    letter-spacing: 1.7px;
     line-height: normal;
     margin: 0;
     position: absolute;
