@@ -1,12 +1,23 @@
 .slider {
   position: relative;
   z-index: 500;
+
+  @media (min-width: $width-desktop) {
+    margin-top: -99px;
+  }
 }
 
 .slider__slide-wrapper {
   height: 485px;
   position: relative;
   z-index: 500;
+
+  @media (min-width: $width-desktop) {
+    height: 577px;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .slider__slide {

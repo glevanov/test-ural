@@ -27,16 +27,16 @@
 
   @media (min-width: $width-desktop) {
     display: block;
-    position: absolute;
-    opacity: 0.4;
-    top: 160px;
-    left: -15px;
-    transform: rotate(-90deg);
-    z-index: 700;
     font-family: $font-stack-decor;
     font-size: 12px;
     font-style: italic;
     font-weight: 300;
+    left: -15px;
     letter-spacing: 0.444px;
+    opacity: 0.4;
+    position: absolute;
+    top: 160px;
+    transform: rotate(-90deg);
+    z-index: 700;
   }
 }
