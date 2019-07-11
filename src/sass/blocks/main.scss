@@ -41,3 +41,26 @@
     z-index: 700;
   }
 }
+
+.main__decor-black-alfa {
+  right: 27px;
+  top: 144px;
+  z-index: 400;
+
+  @media (min-width: $width-desktop) {
+    bottom: -85px;
+    right: calc(50% - 504px);
+    top: unset;
+  }
+}
+
+.main__decor-transparent-alfa {
+  bottom: 27px;
+  left: 44px;
+  z-index: 600;
+
+  @media (min-width: $width-desktop) {
+    bottom: -105px;
+    left: calc(50% + 244px);
+  }
+}

@@ -49,30 +49,6 @@
   }
 }
 
-.slider__decor-black-alfa {
-  right: 27px;
-  top: 144px;
-  z-index: 400;
-
-  @media (min-width: $width-desktop) {
-    bottom: -85px;
-    right: 136px;
-    top: unset;
-  }
-}
-
-.slider__decor-transparent-alfa {
-  bottom: 27px;
-  left: 44px;
-  z-index: 600;
-
-  @media (min-width: $width-desktop) {
-    bottom: -105px;
-    left: unset;
-    right: 370px;
-  }
-}
-
 .slider__decor-A {
   right: calc(50% + 46px);
   top: 143px;
