@@ -3,6 +3,18 @@
   z-index: 200;
 }
 
+.main__logo {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: block;
+    position: absolute;
+    top: 253px;
+    left: calc(50% - 494px);
+    z-index: 700;
+  }
+}
+
 .main__slogan {
   display: block;
   font-family: $font-stack-accent;
