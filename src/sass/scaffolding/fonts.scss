@@ -46,12 +46,34 @@
 @font-face {
   font-display: swap;
   font-family: "Geometria";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Geometria Heavy"),
+  local("Geometria-Heavy"),
+  url("./fonts/Geometria-Heavy.woff2") format("woff2"),
+  url("./fonts/Geometria-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Geometria";
   font-style: italic;
   font-weight: 700;
   src: local("Geometria Heavy Italic"),
   local("Geometria-HeavyItalic"),
   url("./fonts/Geometria-HeavyItalic.woff2") format("woff2"),
   url("./fonts/Geometria-HeavyItalic.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Geometria";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Geometria Light"),
+  local("Geometria-Light"),
+  url("./fonts/Geometria-Light.woff2") format("woff2"),
+  url("./fonts/Geometria-Light.woff") format("woff");
 }
 
 @font-face {

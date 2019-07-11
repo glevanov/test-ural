@@ -54,14 +54,48 @@
   }
 }
 
+.main__decor-51 {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: block;
+    left: calc(50% - 159px);
+    top: 0;
+    transform: rotate(-90deg);
+    z-index: 700;
+  }
+}
+
+.main__decor-1 {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: block;
+    left: calc(50% - 495px);
+    top: 83px;
+    z-index: 700;
+  }
+}
+
+.main__decor-3 {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: block;
+    left: calc(50% - 495px);
+    top: 165px;
+    z-index: 700;
+  }
+}
+
 .main__decor-ural {
   display: none;
 
   @media (min-width: $width-desktop) {
     display: flex;
+    left: calc(50% - 133px);
     top: 119px;
     z-index: 700;
-    left: calc(50% - 133px);
   }
 }
 
@@ -70,8 +104,8 @@
 
   @media (min-width: $width-desktop) {
     display: block;
-    top: 169px;
     left: calc(50% - 371px);
+    top: 169px;
     z-index: 600;
   }
 }
