@@ -11,6 +11,17 @@
 
 @font-face {
   font-display: swap;
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Philosopher Bold"),
+  local("Philosopher-Bold"),
+  url("./fonts/Philosopher-Bold.woff2") format("woff2"),
+  url("./fonts/Philosopher-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
   font-family: "Geometria";
   font-style: normal;
   font-weight: 500;

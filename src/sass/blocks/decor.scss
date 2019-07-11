@@ -13,3 +13,13 @@
     font-size: 80px;
   }
 }
+
+.decor--text-accent {
+  @media (min-width: $width-desktop) {
+    font-family: $font-stack-accent;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+  }
+}
