@@ -23,3 +23,25 @@
     margin: 0;
   }
 }
+
+.decor--ural {
+  @media (min-width: $width-desktop) {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 101.5 101.5' width='101.5' height='101.5'%3E%3Cpath stroke='%23000' fill='none' d='M50.5 100.5c-27.65 0-50-22.35-50-50s22.35-50 50-50 50 22.35 50 50-22.35 50-50 50z'/%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    font-family: $font-stack-decor;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 2.016px;
+    padding: 0 22px;
+    box-sizing: border-box;
+    color: $color-text-contrast;
+  }
+}

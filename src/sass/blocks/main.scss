@@ -8,9 +8,9 @@
 
   @media (min-width: $width-desktop) {
     display: block;
+    left: calc(50% - 494px);
     position: absolute;
     top: 253px;
-    left: calc(50% - 494px);
     z-index: 700;
   }
 }
@@ -51,6 +51,28 @@
     top: 292px;
     transform: rotate(-90deg);
     z-index: 700;
+  }
+}
+
+.main__decor-ural {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: flex;
+    top: 119px;
+    z-index: 700;
+    left: calc(50% - 133px);
+  }
+}
+
+.main__decor-shape {
+  display: none;
+
+  @media (min-width: $width-desktop) {
+    display: block;
+    top: 169px;
+    left: calc(50% - 371px);
+    z-index: 600;
   }
 }
 
